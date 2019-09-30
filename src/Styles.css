@@ -126,26 +126,33 @@ body{
     font-size: 12pt;
 }
 .convert{
-    background-image: url(../src/images/convert2.png);
+    /* background-image: url(../src/images/convert2.png);
     background-size: contain;
-    background-repeat: no-repeat;
-    font-size: 7pt;
+    background-repeat: no-repeat; */
+    font-size: 1.4em;
     border: none;
+    color: #fa6900;
+    margin-right: 35px;
 }
 .spend{
         background-image: url(../src/images/credit2.png);
         background-size: contain;
         background-repeat: no-repeat;
-        font-size: 7pt;
+        font-size: 5pt;
         border: none;
+        margin-left: 20px;
 }
 .twelve{
     background-image: url(../src/images/clock3.png);
     background-size: contain;
     background-repeat: no-repeat;
-    font-size: 7pt;
+    font-size: 5pt;
     flex: 1 1;
     border: none;
+    margin-left: 30px;
+}
+.clear{
+    padding-right: 24px;
 }
 .crazy{
     display: flex;

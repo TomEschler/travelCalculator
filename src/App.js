@@ -183,9 +183,9 @@ class App extends React.Component{
                     </div>
                     <div className='row crazy'>
                         <button className='button twelve' onClick={this.toTwelve}></button>
-                        <button className='button convert' onClick={this.convertHandler}></button> 
                         <button className='button spend' onClick={this.addToSpent}></button>
-                        <ClearButton handleClear={this.clearInput}>Clear</ClearButton>
+                        <button className='button convert' onClick={this.convertHandler}>$</button> 
+                        <ClearButton handleClear={this.clearInput}>Clr</ClearButton>
                     </div>
                 </div>
             </div>

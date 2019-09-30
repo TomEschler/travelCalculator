@@ -1,5 +1,4 @@
 import React from 'react'
-import './button.css'
 
 class Button extends React.Component{
     isOperator = val =>{

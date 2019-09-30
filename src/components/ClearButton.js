@@ -1,5 +1,4 @@
 import React from 'react'
-import './ClearButton.css'
 
 class ClearButton extends React.Component{
     isOperator = val =>{
@@ -7,7 +6,7 @@ class ClearButton extends React.Component{
     }
     render(){
         return(
-            <div className='button'
+            <div className='button clear'
             onClick={() => this.props.handleClear()}
             >
                 {this.props.children}
