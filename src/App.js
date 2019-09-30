@@ -187,13 +187,6 @@ class App extends React.Component{
                         <button className='button spend' onClick={this.addToSpent}></button>
                         <ClearButton handleClear={this.clearInput}>Clear</ClearButton>
                     </div>
-                    {/* <div className='row bottom'>
-                        <ClearButton handleClear={this.clearInput}>Clear</ClearButton>
-                        <button className='button twelve' onClick={this.toTwelve}></button>
-                    </div>
-                    <div className='row'>
-                        <ClearButton className='button' handleClear={this.clearInput}>Clear</ClearButton>
-                    </div> */}
                 </div>
             </div>
         )
@@ -201,10 +194,3 @@ class App extends React.Component{
 }
 
 export default App
-
-// I press digits I get input
-//when i press the moneybag symblol it gives me the value from eur to usd
-
-// instead of an input box its using the input buttons of calc numbers 
-
-// previous numner then moneybag press equals gives result

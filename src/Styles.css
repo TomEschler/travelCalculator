@@ -126,21 +126,21 @@ body{
     font-size: 12pt;
 }
 .convert{
-    background-image: url(../src/convert2.png);
+    background-image: url(../src/images/convert2.png);
     background-size: contain;
     background-repeat: no-repeat;
     font-size: 7pt;
     border: none;
 }
 .spend{
-        background-image: url(../src/credit2.png);
+        background-image: url(../src/images/credit2.png);
         background-size: contain;
         background-repeat: no-repeat;
         font-size: 7pt;
         border: none;
 }
 .twelve{
-    background-image: url(../src/clock3.png);
+    background-image: url(../src/images/clock3.png);
     background-size: contain;
     background-repeat: no-repeat;
     font-size: 7pt;
